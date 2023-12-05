@@ -1,0 +1,61 @@
+body{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+#secondpage{
+    margin: auto;
+    padding-top: 2%;
+    /* border: 2px solid red; */
+    width: 60%;
+    height: auto;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#secondhead{
+    display: flex;
+    justify-content: flex-end;
+}
+#secondpage>h1{
+    text-align: right;
+    border: 10px solid white;
+    color: orange;
+    font-size: 40px;
+    line-height: 0%;
+    margin-right: 10%;
+}
+#secondhead>video{
+    height: 50%;
+    width: 50%;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+#techniques{
+    display: flex;
+}
+#techniques>img{
+    height: 70%;
+    width: 60%;
+    }
+#masters{
+    display: flex;
+}
+#masters>img{
+    height: 70%;
+    width: 60%;
+}
+#trasnformation{
+    display: flex;
+}
+#trasnformation>img{
+    height: 70%;
+    width: 60%;
+}
+@media all  and (min-width:50px) and (max-width:550px){
+    #secondpage> h1{
+        font-size: 15px;
+    }
+    
+}
